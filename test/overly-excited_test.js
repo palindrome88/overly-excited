@@ -10,5 +10,13 @@ describe("", function(){
         
 
 		expect(addExcitement).to.have.lengthOf.above(0,"This thing ain't got crap in it, dude.");
+        
+	});
+	it("should append '!' to every third word", function() { //one aspect of the behavior.
+		// ( (whitespaceofsent[currentpos] % 2) == 1) &&  ( (whitespaceofsent[currentpos -1 ] % 2) == 1)  
+		// if this evals true, then ! has been appended 
+
+		expect(addExcitement).to.have.lengthOf.above(0,"This thing ain't got crap in it, dude.");
+        
 	});
 });
